@@ -6,13 +6,13 @@ using namespace std;
 int main(void)
 {
 	vector< vector< pair< int,int > > > v={{{2,6},{1,8}},
-											{{3,5},{5,9}},
-											{{4,8}},
-											{},
-											{},
-											{{7,6}},
-											{},
-											{{6,6}}};
+						{{3,5},{5,9}},
+						{{4,8}},
+						{},
+						{},
+						{{7,6}},
+						{},
+						{{6,6}}};
 
 	int visit[8]={0},previous[8];
 	int distance[8];
@@ -23,17 +23,6 @@ int main(void)
 		distance[i]=INT_MAX;
 		previous[i]=-1;
 	}
-
-
-
-
-
-
-
-
-
-
-
 
 
 	stack< pair < int ,int > > s;
